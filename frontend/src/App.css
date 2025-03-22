@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #3f51b5;
-    --secondary-color: #606fc7;
-    --user-bubble: #3f51b5;
+    --primary-color: purple;
+    --secondary-color: rgb(84, 7, 84);
+    --user-bubble: purple;
     --assistant-bubble: #f0f2f5;
     --error-bubble: #ffebee;
     --text-color: #333;
@@ -21,7 +21,7 @@
   
   .sidebar {
     width: 260px;
-    background: #3f51b5;
+    background: purple;
     color: white;
     padding: 1rem;
     display: flex;
@@ -35,15 +35,14 @@
     gap: 0.5rem;
     width: 100%;
     padding: 0.75rem;
-    background: #606fc7;
+    background: rgb(84, 7, 84);
     color: white;
-    border: 1px solid #565869;
     border-radius: 5px;
     cursor: pointer;
   }
   
   .new-chat-btn:hover {
-    background: #606fc7;
+    background: rgb(84, 7, 84);
   }
   
   .chat-history {
@@ -64,11 +63,11 @@
   }
   
   .chat-history-item:hover {
-    background: #606fc7;
+    background: rgb(84, 7, 84);
   }
   
   .chat-history-item.active {
-    background: #606fc7;
+    background: rgb(84, 7, 84);
   }
   
   .chat-container {
